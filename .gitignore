@@ -1,0 +1,48 @@
+# Ignorar pasta .git (normalmente não precisa, mas por precaução)
+.git/
+
+# Build / binários
+build/
+bin/
+out/
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Arquivos de backup do editor
+*~
+*.swp
+*.swo
+
+# Arquivos de projeto / workspace (IDEs comuns)
+.vscode/
+.idea/
+*.code-workspace
+*.sln
+*.vcxproj*
+*.xcodeproj/
+*.xcworkspace/
+
+# Arquivos do CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Arquivos gerados pelo compilador (exemplo clang)
+*.d
+
+# Mac OS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
